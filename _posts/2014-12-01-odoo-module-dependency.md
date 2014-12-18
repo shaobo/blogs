@@ -1,6 +1,6 @@
 ---
-layout: default
-title: odoo module dependency overview
+layout: post
+title: Odoo module dependency overview
 comments: true
 permalink: "odoo-module-dependency"
 ---
