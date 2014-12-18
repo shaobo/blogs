@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: odoo module dependency overview
 comments: true
 permalink: "odoo-module-dependency"
@@ -24,4 +24,4 @@ where m.state = 'installed'
 
 *from the picture,you can tell most of the modules are webs*
 
-![module-dependency](/blogs/images/module_dep.svg)
+![module-dependency]({{ site.baseurl }}/images/module_dep.svg)
