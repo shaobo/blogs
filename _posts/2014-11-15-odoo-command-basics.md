@@ -28,4 +28,4 @@ sudo dropdb -h localhost -U odoo testpg
 
 
 ###reference
-[yingliu4203 odoo8nightly on docker](https://registry.hub.docker.com/u/yingliu4203/odoo8nightly/)
+[yingliu odoo8nightly on docker](https://registry.hub.docker.com/u/yingliu4203/odoo8nightly/)

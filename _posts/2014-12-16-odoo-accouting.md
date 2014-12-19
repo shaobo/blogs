@@ -15,16 +15,20 @@ select a.id,a.code,a.name,a.type,a.reconcile,b.name acount_type,b.close_method,b
 from account_account a,account_account_type b  
 where a.user_type = b.id order by id
 ```
+<img src="{{ site.baseurl }}/images/account_struc.svg" class="enlarge" />
 
-![accounts-tree]({{ site.baseurl }}/images/account_struc.svg)
 
+on bookkeeping,the end user should only be able to deal with the leaf node account ,such as '110100 Purchased-Stocks',
+the view type of  account (or internal node account) such as '11 Net-Current-Assets' could be used for reporting in different levels.  
 
+```
 the accounts are used in two major reports:
-1,资产负债表 Balance Sheet (Assets Accounts)
+1.Balance Sheet (Assets Accounts) 资产负债表
 Assets = Liabilities + Shareholders’ Equity
 
-2,损益表Profit & Loss (Expense Accounts)
+2.Profit & Loss (Expense Accounts) 损益表
 Profit = Income - Expense
+```
 
 Account type's Deferral Method:
 
@@ -41,8 +45,8 @@ Set the method that will be used to generate the end of year journal entries for
 如果选择 None,则要自己手工填写结转分录,结转科目。
 Unreconciled 主要是指应税账款、应付账款,未核销的应收、应付账款科目应该结转至下期。
 
-## Other Modules relate to Accounting
-with defining some default properties, so that you do not have to think about which account is used for which transaction every time you do something. The main new properties are the four that associate accounts payable and receivable to partners, and expenses and income to product categories.  
+## Other Modules interact with Accounting
+with defining some default __properties__(Settings>Technical>Parameters>Company Properties), so that you do not have to think about which account is used for which transaction every time you do something. The main new properties are the four that associate accounts payable and receivable to partners, and expenses and income to product categories.  
 
 Account Receivable：和客户发生的销售业务记账凭证中，应收账款对应的会计科目  
 Account Payable：和业务伙伴发生的采购业务记账凭证中，应付账款对应的会计科目  

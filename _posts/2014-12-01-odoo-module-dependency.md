@@ -24,4 +24,4 @@ where m.state = 'installed'
 
 *from the picture,you can tell most of the modules are webs*
 
-![module-dependency]({{ site.baseurl }}/images/module_dep.svg)
+<img src="{{ site.baseurl }}/images/module_dep.svg" class="enlarge" />

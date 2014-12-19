@@ -30,5 +30,5 @@ git push -u origin gh-pages
 
 
 ###References
-[blogging tutorial with jekyll] (http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
-
+[markdown](https://guides.github.com/features/mastering-markdown/)
+[blogging tutorial with jekyll](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)

@@ -207,6 +207,11 @@ img {
   border-radius: 5px;
 }
 
+.enlarge:hover {
+ transform:scale(2,3);
+  transform-origin:0 0;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;
