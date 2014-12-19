@@ -82,7 +82,7 @@ StartCom®为一家提供数字证书认证的公司,这次建立odoo网站正�
 openssl rsa -in ssl.key -out sslo.key
 chmod 600 sslo.key （Protect your key from prying eyes）
 
-2. 合并证书配置文件
+2.合并证书配置文件
 和Apache配置不同，Nginx需要将服务器证书和ca证书链合并到一个文件中，作为 ssl_certificate 配置的内容。
 例如，按照证书链从下向上的顺序，有三个证书：
   1)ssl.crt（自己域名的服务器证书，从startssl上申请下来的）
@@ -104,13 +104,12 @@ killall -HUP nginx
 ```
 
 ## Trouble shooting 
-1 default port 80 is using ,remove the 'sites-enable/default' file
-
-2 firefox warns"untrusted authority" when connecting to my website
-http://www.startssl.com/?app=25#31
+1.default port 80 is using ,remove the 'sites-enable/default' file  
+2.[firefox warns"untrusted authority" when connecting to my website]
+(http://www.startssl.com/?app=25#31)  
 
 ##reference
 [start ssl证书申请](http://www.live-in.org/archives/1296.html)  
 [ssl证书与Https应用部署小结 ](http://han.guokai.blog.163.com/blog/static/136718271201211631456811/)  
 [setup-nginx-ssl-proxy](http://www.cyberciti.biz/faq/howto-linux-unix-setup-nginx-ssl-proxy/)  
-[NGINX Reverse Proxy](http://nginx.com/resources/admin-guide/reverse-proxy/)  
+[nginx Reverse Proxy](http://nginx.com/resources/admin-guide/reverse-proxy/)  
