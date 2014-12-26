@@ -4,8 +4,8 @@ title: Odoo with catch-all email
 comments: true
 permalink: "odoo-catchall-email"
 ---
-*
-Mail server provide facility like catchall which will handle all mail with domain means here i try to explain with example that may
+
+*Mail server provide facility like catchall which will handle all mail with domain means here i try to explain with example that may
 be useful to you :
 Ex. Company domain name :
      @domain.com
@@ -18,20 +18,22 @@ the account info@yourMailDomain.com should be created first,and should be logine
 [admin console > routing advance](https://support.google.com/a/answer/33962?hl=en)
 
 ## config email catchall in odoo
-assume Technical Feature is enabled under Administrator,go to Settings>System Parameters,set the following two parameters:
+assume Technical Feature is enabled under Administrator,go to Settings>System Parameters,set the following two parameters:  
 * Alias domain(mail.catchall.domain):yourMailDomain.com
 * mail.catchall.alias:info
 
-odoo would also using the above setting eg mail.catchall.alias@mail.catchall.domain which is info@yourMailDomain.com as your system outgoing email account,event though you have other  
+odoo would also using the above setting eg mail.catchall.alias@mail.catchall.domain which is 'info@yourMailDomain.com' as your system outgoing email account,event though you may have other  
 email setting under your company data (Settings>General Settings>Companies)
 
 ## config Incoming mail servers
 setting>configuration>general setting>email,in this form, the Name field should be set like 'companyName <info@yourMailDomain.com>',because it will be used as reply-to field in the email message header like following:
+
 ```
 from:	  anyoneInOdoo <info@yourMailDomain.com>
 reply-to: companyName  <info@yourMailDomain.com>
 ```
-other fields:  
+
+other fields could be:  
   pop.gmail.com, SSL/TLS
 
 ## config Outgoing mail servers
@@ -42,12 +44,13 @@ config using the same email account ,other info setting as:
 ```
 Unless you have very specific needs, you never have to create aliases manually. Alias are defined directly on 'sales teams', 'projects', 'users', 'mail groups', etc.
 To define an alias that create leads, just set the alias on the Sales Team.
-For a user, it's alias is his login by default.
+For a user, its alias is his login by default.
 ```
+
 you can verify 'Messaging Alias' field in Preferences Tab of users settings which should be userName@yourMailDomain.com
 or you can find the Alias listing under Settings>Technical>Email>Aliases
- 
-My Groups> Disccssion groups > set alias like ''
+or you can customize group aliases under  
+My Groups> Disccssion groups > set alias field
 
 ## config Fetchmail Service
 verify that fetch mail service is scheduled under Settings>Technical>Scheduled Actions>Fetchmail Service
