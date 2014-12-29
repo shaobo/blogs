@@ -14,7 +14,7 @@ handled under catchall.
 [> from Pinakin Nayi: Mail alias in OpenERP 7](http://pinakinnayi.blogspot.com/2013/07/mail-alias-with-openerp-7.html)*
 
 ## why odoo use catchall
-obviously,you could config just one incoming catchall mail account to receive all emails,odoo could route the incoming messages to different receivers by your odoo object's aliases configuration (fetchmail.py)
+ config just one incoming catchall mail account to receive all emails,and odoo could route the incoming messages to different receivers by your odoo object's aliases configuration (see message_route func in fetchmail.py)
 
 ``` python
 # 4. Look for a matching mail.alias entry
@@ -37,10 +37,10 @@ assume you have enterprise version gmail service applied,go to gmail admin conso
 the account info@yourMailDomain.com should be created first,and should be logined with a browser to reset its password to avoid the mail client program (the odoo fetchmail module in later) would result connection failed error.
 [admin console > routing advance](https://support.google.com/a/answer/33962?hl=en)
 
-## config email catchall in odoo
+## config catchall in odoo
 assume Technical Feature is enabled under Administrator,go to Settings>System Parameters,set the following two parameters:  
-* Alias domain(mail.catchall.domain):yourMailDomain.com
-* mail.catchall.alias:info
+1. Alias domain(mail.catchall.domain):yourMailDomain.com
+2. mail.catchall.alias:info
 
 odoo would also using the above setting eg mail.catchall.alias@mail.catchall.domain which is 'info@yourMailDomain.com' as your system outgoing email account,event though you may have other  
 email setting under your company data (Settings>General Settings>Companies)
@@ -84,17 +84,16 @@ that is because you configed catchall in gmail for unexist mail account message 
 ### References
 [email-messaging-with-odoo](https://www.odoo.com/forum/help-1/question/how-to-set-up-e-mail-messaging-with-odoo-61796)  
 [openerp email catchall screenshot](https://www.erponline.vn/vi/support/documentation/16-tutorials/72-t%C3%ADch-h%E1%BB%A3p-email-v%C3%A0o-erponline-odoo)  
-[odoo email CN forum](http://shine-it.net/index.php/topic,12643.0.html)
-
+[odoo email CN forum](http://shine-it.net/index.php/topic,12643.0.html)  
 [How can I manage my emails related to leads and opportunities?](https://www.odoo.com/forum/help-1/question/how-can-i-manage-my-emails-related-to-leads-and-opportunities-28)  
 [odoo leads](https://doc.odoo.com/book/2/3_CRM_Contacts/leads/)
 
-*seems to be optional:
-[smtp relay](http://mhawthorne.net//posts/postfix-configuring-gmail-as-relay.html)  
+optional:
+
+*[smtp relay](http://mhawthorne.net//posts/postfix-configuring-gmail-as-relay.html)  
 
 Authenticate email  
 The domains you select will use the DKIM (DomainKeys Identified Mail) protocol for authenticating outgoing emails You must update the DNS records for this domain*
-
 
 
 
