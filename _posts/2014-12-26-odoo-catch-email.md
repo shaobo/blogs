@@ -7,11 +7,31 @@ permalink: "odoo-catchall-email"
 
 *Mail server provide facility like catchall which will handle all mail with domain means here i try to explain with example that may
 be useful to you :
-Ex. Company domain name :
+Ex. Company domain name :  
      @domain.com
 now someone send a mail to xxx@domain.com now there is no any xxx mail address defined in the @domain.com so these kind of mails are
-handled under catchall.  [> from Pinakin Nayi: Mail alias in OpenERP 7](http://pinakinnayi.blogspot.com/2013/07/mail-alias-with-openerp-7.html)
-*
+handled under catchall.  
+[> from Pinakin Nayi: Mail alias in OpenERP 7](http://pinakinnayi.blogspot.com/2013/07/mail-alias-with-openerp-7.html)*
+
+## why odoo use catchall
+obviously,you could config just one incoming catchall mail account to receive all emails,odoo could route the incoming messages to different receivers by your odoo object's aliases configuration (fetchmail.py)
+
+``` python
+# 4. Look for a matching mail.alias entry
+# Delivered-To is a safe bet in most modern MTAs, but we have to fallback on To + Cc values
+# for all the odd MTAs out there, as there is no standard header for the envelope's `rcpt_to` value.
+rcpt_tos = \
+     ','.join([decode_header(message, 'Delivered-To'),
+               decode_header(message, 'To'),
+               decode_header(message, 'Cc'),
+               decode_header(message, 'Resent-To'),
+               decode_header(message, 'Resent-Cc')])
+local_parts = [e.split('@')[0] for e in tools.email_split(rcpt_tos)]
+if local_parts:
+    mail_alias = self.pool.get('mail.alias')
+    alias_ids = mail_alias.search(cr, uid, [('alias_name', 'in', local_parts)])
+``` 
+
 ## config email catchall in gmail
 assume you have enterprise version gmail service applied,go to gmail admin console and set info@yourMailDomain.com as your catchall mail account.
 the account info@yourMailDomain.com should be created first,and should be logined with a browser to reset its password to avoid the mail client program (the odoo fetchmail module in later) would result connection failed error.
@@ -40,7 +60,7 @@ other fields could be:
 config using the same email account ,other info setting as:   
   smtp.gmail.com,TLS (STARTTLS)
 
-## config alias
+## config odoo object's aliases
 ```
 Unless you have very specific needs, you never have to create aliases manually. Alias are defined directly on 'sales teams', 'projects', 'users', 'mail groups', etc.
 To define an alias that create leads, just set the alias on the Sales Team.
