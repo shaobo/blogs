@@ -31,7 +31,12 @@ jekyll serve --baseurl /blogs --watch
 - line break with 2 spaces ,or 2 white space lines
 - *line breaks cannot be insertted into italic blocks* \* without 2+ consecutive line breaks \*
 
+- >"\> quotation "
+
+- escape reserved markdown characters by preceding a '\\' :```foo\_bar``` for foo\_bar 
+
 
 ###References
-[markdown](https://guides.github.com/features/mastering-markdown/)
-[blogging tutorial with jekyll](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+[markdown](https://guides.github.com/features/mastering-markdown/)  
+[blogging tutorial with jekyll](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)  
+[jekyll-github-pages-poole by joshualande](http://joshualande.com/jekyll-github-pages-poole/)  

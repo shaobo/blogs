@@ -33,7 +33,7 @@ else:
 ```
 如果不使用代码段，直接写result = 8.5是没有问题的。
 
-看来还是直接增加tax处理合理，如采用TaxCloud服务，这里配置项仅仅适用于简单的条件匹配，正如选项名称Applicability option所示,过于复杂的逻辑对于维护也是个问题。
+看来还是直接增加tax处理合理，如采用第三方类似TaxCloud服务。这里配置项仅仅适用于简单的条件匹配，正如选项名称Applicability option所示,过于复杂的逻辑对于维护也是个问题。
 另外，除了定制Tax外，目前也可以从价格方面进行定制，比如为不同的客户创建不同的价格
 
 ##Pricelist
@@ -45,5 +45,3 @@ else:
 [Odoo/OpenERP Pricelists](https://apagen.wordpress.com/2013/05/25/openerp-pricelists/)  
 [Introduction to pricelist on youtube](https://www.youtube.com/watch?v=gotUoKrMHT0)  
 [tax structure](https://doc.odoo.com/6.1/book/3/3_9/tax_structure/)  
-
-

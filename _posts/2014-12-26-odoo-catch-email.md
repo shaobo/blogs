@@ -62,16 +62,14 @@ config using the same email account ,other info setting as:
   smtp.gmail.com,TLS (STARTTLS)
 
 ##5.verify odoo object's aliases
-```
-Unless you have very specific needs, you never have to create aliases manually. Alias are defined directly on 'sales teams', 'projects', 'users', 'mail groups', etc.
-To define an alias that create leads, just set the alias on the Sales Team.
-For a user, its alias is his login by default.
-```
 
-you can verify 'Messaging Alias' field in Preferences Tab of users settings which should be userName@yourMailDomain.com
-or you can find the Alias listing under Settings>Technical>Email>Aliases
-or you can customize group aliases under  
-My Groups> Disccssion groups > set alias field
+>"Unless you have very specific needs, you never have to create aliases manually. Alias are defined directly on 'sales teams', 'projects', 'users', 'mail groups', etc.
+To define an alias that create leads, just set the alias on the Sales Team.
+For a user, its alias is his login by default."
+
+- you can verify 'Messaging Alias' field in Preferences Tab of users settings which should be userName@yourMailDomain.com or 
+- you can find the Alias listing under Settings>Technical>Email>Aliases or 
+- you can customize group aliases under My Groups> Disccssion groups > set alias field
 
 ##6.verify Fetchmail Service
 verify that fetch mail service is scheduled under Settings>Technical>Scheduled Actions>Fetchmail Service
@@ -94,6 +92,3 @@ optional:
 *[smtp relay](http://mhawthorne.net//posts/postfix-configuring-gmail-as-relay.html)  
 Authenticate email  
 The domains you select will use the DKIM (DomainKeys Identified Mail) protocol for authenticating outgoing emails You must update the DNS records for this domain*
-
-
-
