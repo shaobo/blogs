@@ -7,7 +7,7 @@ permalink: "odoo-accounting"
 
 *You need to start off with a minimal set of accounts, and to do that you will need a couple of account types. You can structure your accounts into a chart at any time (and, in fact, you can structure them into several additional charts at the same time as you will see in the chapter Configuring Accounts from A to Z) [< odoo book](https://doc.odoo.com/book/)*
 
-## Basic Accounts
+## Accounts
 odoo built-in accounts are orgnized in tree structure,which can be queried out by  
 
 ```sql
@@ -21,8 +21,9 @@ where a.user_type = b.id order by id
 on bookkeeping,the end user should only be able to deal with the leaf node account ,such as '110100 Purchased-Stocks',
 the view type of  account (or internal node account) such as '11 Net-Current-Assets' could be used for reporting in different levels.  
 
+## Account Type
 ```
-the accounts are used in two major reports:
+The accounts are used in two major reports:
 1.Balance Sheet (Assets Accounts) 资产负债表
 Assets = Liabilities + Shareholders’ Equity
 
@@ -30,9 +31,9 @@ Assets = Liabilities + Shareholders’ Equity
 Profit = Income - Expense
 ```
 
-Account type's Deferral Method:
+Account type's [Deferral Method](https://www.odoo.com/forum/how-to/concepts-16/what-is-an-account-type-and-how-can-i-configure-it-54106):
 
-Set the method that will be used to generate the end of year journal entries for all the accounts of this type,
+Set the method that will be used to generate the end of month/year period journal entries for all the accounts of this type,
 
 'None' means that nothing will be done.
 'Balance' will generally be used for cash accounts.
@@ -45,7 +46,7 @@ Set the method that will be used to generate the end of year journal entries for
 如果选择 None,则要自己手工填写结转分录,结转科目。
 Unreconciled 主要是指应税账款、应付账款,未核销的应收、应付账款科目应该结转至下期。
 
-## Other Modules interact with Accounting
+## Other Modules interact with Accounts
 with defining some default __properties__(Settings>Technical>Parameters>Company Properties), so that you do not have to think about which account is used for which transaction every time you do something. The main new properties are the four that associate accounts payable and receivable to partners, and expenses and income to product categories.  
 
 Account Receivable：和客户发生的销售业务记账凭证中，应收账款对应的会计科目  
@@ -54,6 +55,10 @@ Income Account: 产品收入科目，产品销售业务的会计分录的贷方�
 Expense Account: 产品成本科目，产品采购业务的会计分录的借方,贷方是应付账款  
 Stock Output Account: 产品出库科目，产品出库时会计分录的借方，贷方是库存管理中库位设置时指定的科目  
 Stock Input Account: 产品入库科目，产品入库时会计分录的贷方，借方是库存管理中库位设置时指定的科目  
+
+## Periodic Processing 
+In order to close a period, you must first post related journal entries,ie:  
+account_move_obj.search(cr, uid, [('period_id', '=', id), ('state', '=', "draft")], context=context) result should be null
 
 ## Other TERM
 - liquidity 流动比率（Current Ratio）=流动资产÷流动负债

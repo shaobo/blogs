@@ -14,29 +14,47 @@ A delivery\_carrier model
 - should be associated with a delivery product whose product category needs to be set to `All / Saleable / Services`
 - should be associated with a partner (ie. a Transport Company ) 
 - should set its Available in the website (website_publish) field to true
-- could have advanced Pricing per Destination (zip\_from~zip\_to,states,countries)
+- could have advanced Pricing per Destination (zip\_from,zip\_to,states,countries)
 
 ``` python
 ~delivery.py  
     def get_price(self, cr, uid, id, order, dt, context=None):
-	total = 0
-	weight = 0
-	volume = 0
-	quantity = 0
-	product_uom_obj = self.pool.get('product.uom')
-	for line in order.order_line:
-	    if not line.product_id or line.is_delivery:
-		continue
-	    q = product_uom_obj._compute_qty(cr, uid, line.product_uom.id, line.product_uom_qty, line.product_id.uom_id.id)
-	    #1,Gross Weight in product,ie. weight field in model product_template
-	    weight += (line.product_id.weight or 0.0) * q
-	    volume += (line.product_id.volume or 0.0) * q
-	    quantity += q
-	total = order.amount_total or 0.0
+		total = 0
+		weight = 0
+		volume = 0
+		quantity = 0
+		product_uom_obj = self.pool.get('product.uom')
+		for line in order.order_line:
+		    if not line.product_id or line.is_delivery:
+			continue
+		    q = product_uom_obj._compute_qty(cr, uid, line.product_uom.id, line.product_uom_qty, line.product_id.uom_id.id)
+		    #1,Gross Weight in product,ie. weight field in model product_template
+		    weight += (line.product_id.weight or 0.0) * q
+		    volume += (line.product_id.volume or 0.0) * q
+		    quantity += q
+		total = order.amount_total or 0.0
 
-	#2,get price from delivery methods configuration,quantitiy,the price can be played on gross weight,and order total amount 
-	return self.get_price_from_picking(cr, uid, id, total,weight, volume, quantity, context=context)
+		#2,get price from delivery methods configuration,quantitiy,the price can be played on gross weight,and order total amount 
+		return self.get_price_from_picking(cr, uid, id, total,weight, volume, quantity, context=context)
 
+    def get_price_from_picking(self, cr, uid, id, total, weight, volume, quantity, context=None):
+        grid = self.browse(cr, uid, id, context=context)
+        price = 0.0
+        ok = False
+        price_dict = {'price': total, 'volume':volume, 'weight': weight, 'wv':volume*weight, 'quantity': quantity}
+        for line in grid.line_ids:
+            test = eval(line.type+line.operator+str(line.max_value), price_dict)
+            if test:
+                if line.price_type=='variable':
+                    price = line.list_price * price_dict[line.variable_factor]
+                else:
+                    price = line.list_price
+                ok = True
+                break
+        if not ok:
+            raise osv.except_osv(_("Unable to fetch delivery method!"), _("Selected product in the delivery method doesn't fulfill any of the delivery grid(s) criteria."))
+
+        return price
 ```
 
 ## Advanced Pricing per Destination

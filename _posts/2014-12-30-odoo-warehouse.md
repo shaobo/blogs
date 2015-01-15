@@ -11,7 +11,7 @@ warehouse may have many stock locations , like accounts, stock locations are hie
 --parent is in field location_id
 select a.id,a.complete_name ||'->' || b.complete_name from stock_location a,stock_location b where a.location_id = b.id order by 2;
 
---one stock warehouse has many stock locations,by default odoo only enables one stock location ,'Physical Locations splx WH splx Stock'
+--one stock warehouse has many stock locations,by default odoo only enables one stock location ,'Physical Locations / WH / Stock'
 select lot_stock_id 'Location Stock',view_location_id 'View Location',wh_pack_stock_loc_id 'Packing Location',wh_input_stock_loc_id 'Input Location' ,wh_qc_stock_loc_id 'Quality Control Location' ,wh_output_stock_loc_id 'Output Location' from stock_warehouse;
 
 select id,location_id,complete_name from stock_location;

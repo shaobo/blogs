@@ -29,12 +29,23 @@ jekyll serve --baseurl /blogs --watch
 - use travis to show github pages building status [travis continous integration](https://travis-ci.org/shaobo/blogs)  
 - or use jekyll to debug in local   
 - line break with 2 spaces ,or 2 white space lines
-- *line breaks cannot be insertted into italic blocks* \* without 2+ consecutive line breaks \*
-
+- *line breaks cannot be insertted into italic blocks*
+- __BOLD__ by \_\_bold\_\_  `highlight` by \`words\`
 - >"\> quotation "
 
 - escape reserved markdown characters by preceding a '\\' :```foo\_bar``` for foo\_bar 
+- markdown table: first column cannot be preceded with any spaces,and one column should be followed by at least `Three` \---
+or table will not be displayed correctly
 
+```
+id            | name_for_id  
+--- (here 3 -)| ---  
+1             | test  
+```
+
+id            | name\_for\_id
+---           | ---
+1             | test
 
 ###References
 [markdown](https://guides.github.com/features/mastering-markdown/)  

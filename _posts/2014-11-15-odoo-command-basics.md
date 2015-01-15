@@ -23,9 +23,5 @@ sudo docker stop odoo8
 find . -type f -exec grep -l 'public' {} +
 ```
 
-##PostgreSQL truncate
-sudo dropdb -h localhost -U odoo testpg
-
-
 ###reference
 [yingliu odoo8nightly on docker](https://registry.hub.docker.com/u/yingliu4203/odoo8nightly/)
