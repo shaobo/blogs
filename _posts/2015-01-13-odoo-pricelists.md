@@ -28,7 +28,7 @@ __product_pricelists:__
 
 *  Price calculation can be based on fields defined in `product_price_types` , or on other pricelists
 
-	__product_price_types:__  
+	__product\_price\_types:__  
 
 		name         | field (s *of product*)
 		-------------|-----------------------
