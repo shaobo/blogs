@@ -18,6 +18,25 @@ Reconciliation in OpenERP can only be carried out in accounts that have been con
 account_account.py
 'reconcile': fields.boolean('Allow Reconciliation', help="Check this box if this account allows reconciliation of journal items.")
 
+account_automatic_reconcile.py
+#match amount of credit/debit to do_reconcile ,reconcile automatically all transactions from partners whose balance is 0
+def do_reconcile
+
+--
+SELECT partner_id FROM account_move_line WHERE account_id=%s AND reconcile_id IS NULL
+                AND state <> 'draft' GROUP BY partner_id
+                HAVING ABS(SUM(debit-credit)) < write-of-amount AND count(*)>0
+
+
+# unreconciled transactions 
+
+cr.execute(
+    "SELECT count(*) " \
+    "FROM account_move_line " \
+    "WHERE account_id=%s " \
+    "AND reconcile_id IS NULL " \
+    "AND state <> 'draft' " 
+
 --http://localhost:8069/web#menu_id=182&action=182
 
 select * from ir_values where value like '%,182'
