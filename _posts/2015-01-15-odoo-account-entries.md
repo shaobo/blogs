@@ -10,16 +10,17 @@ Accounting entries need to be orgnized in an accounting journal, which is a reco
 
 Account journal is made up of journal entries,and journal entry is made up of journal items, and journal item is made up of account entries. bellow is a journal entry `SAJ/2015/008` which belongs to journal of `Sales Journal - (test) (EUR)`,and
 has 3 journal items (1 of `Debtors - (test)` account and 2 of `Product Sales - (test)` accounts)
-![account journals]({{ site.baseurl }}/images/odoo/account/journal_entry.png)  
+![account journal entries]({{ site.baseurl }}/images/odoo/account/journal_entry.png)  
 
  
 The default credit and debit account in journal allows the software to automatically generate counterpart entries when you are entering data through Journal Items.
 ![account journals]({{ site.baseurl }}/images/odoo/account/journal.png)  
 
 ``` python
+account_journal.py
 'centralisation': fields.boolean('Centralized Counterpart', help="Check this box to determine that each entry of this journal won't create a new counterpart but will share the same counterpart. This is used in fiscal year closing.")
 #You cannot create more than one move per period on a centralized journal.
-#account_move.py 
+account_move.py 
 def _check_centralisation() #len(move_ids) should not > 1 
 	move_ids = self.search(cursor, user, [
 	                    ('period_id', '=', move.period_id.id),
