@@ -8,13 +8,15 @@ permalink: "odoo-accounting-elements"
 Accounting entries need to be orgnized in an accounting journal, which is a record of transactions ordered by date. So you should create a Sales Journal for customer invoices, a Sales Refund journal for customer credit notes, a Purchase Journal for supplier invoices, a Purchase Refund journal for supplier credit notes and a Bank Journal for bank transactions. Other journals can be added as well.
 ![account journal form]({{ site.baseurl }}/images/odoo/account/account_journal_form.png)
 
-Account journal is made up of journal entries,and journal entry is made up of journal items, and journal item is made up of account entries. bellow is a journal entry `SAJ/2015/008` which belongs to journal of `Sales Journal - (test) (EUR)`,and
-has 3 journal items (1 of `Debtors - (test)` account and 2 of `Product Sales - (test)` accounts)
+Account journal is made up of journal entries ,and journal entry is made up of journal items, and journal item is made up of account entries. *joural items are saved in `account_move_line` model*. bellow is a journal entry `SAJ/2015/008` which belongs to journal of `Sales Journal - (test) (EUR)`,and
+has 3 journal items (1 account entry of `Debtors - (test)` and 2 account entries of `Product Sales - (test)` accounts)
 ![account journal entries]({{ site.baseurl }}/images/odoo/account/journal_entry.png)  
 
  
-The default credit and debit account in journal allows the software to automatically generate counterpart entries when you are entering data through Journal Items.
+The default credit and debit account in journal allows Odoo to automatically generate counterpart entries when you are entering data through Journal Items.
 ![account journals]({{ site.baseurl }}/images/odoo/account/journal.png)  
+
+__centralisation journal option for fiscal year closing__
 
 ``` python
 account_journal.py
@@ -32,8 +34,10 @@ Invoice associates 1) the partner account used for this invoice,
 2)account journal used for automatically generating journal Items to account_move model
 ![account invoice]({{ site.baseurl }}/images/odoo/account/account_invoice_form.png) 
  
-account_move model records invoicing results which are grouped by account journals 
+account_move model saves invoicing results (ie. account journal entries) 
 ![account invoice]({{ site.baseurl }}/images/odoo/account/account_invoice.png)
+
+__Invoice automatically generates journal items because of `_default_journal`__
 
 ```python
 addons/account/account_invoice.py

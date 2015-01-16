@@ -35,6 +35,20 @@ Account type's [Deferral Method](https://www.odoo.com/forum/how-to/concepts-16/w
 
 Set the method that will be used to generate the end of month/year period journal entries for all the accounts of this type,
 
+```python
+'close_method': fields.selection([('none', 'None'), ('balance', 'Balance'), ('detail', 'Detail'), ('unreconciled', 'Unreconciled')], 'Deferral Method', required=True, help="""Set here the method that will be used to generate the end of year journal entries for all the accounts of this type.
+
+ 'None' means that nothing will be done.
+ 'Balance' will generally be used for cash accounts.
+ 'Detail' will copy each existing journal item of the previous year, even the reconciled ones.
+ 'Unreconciled' will copy only the journal items that were unreconciled on the first day of the new fiscal year."""),
+'report_type': fields.function(_get_current_report_type, fnct_inv=_save_report_type, type='selection', string='P&L / BS Category', store=True,
+selection= [('none','/'),
+            ('income', _('Profit & Loss (Income account)')),
+            ('expense', _('Profit & Loss (Expense account)')),
+            ('asset', _('Balance Sheet (Asset account)')),
+            ('liability', _('Balance Sheet (Liability account)'))], help="This field is used to generate legal reports: profit and loss, balance sheet.", required=True)
+```
 'None' means that nothing will be done.
 'Balance' will generally be used for cash accounts.
 'Detail' will copy each existing journal item of the previous year, even the reconciled ones.
@@ -67,6 +81,8 @@ account_move_obj.search(cr, uid, [('period_id', '=', id), ('state', '=', "draft"
 - Supplier Vocher：供应商付款凭据 supplier receipt
 
 *A voucher is an accounting document representing an internal intent to make a payment to an external entity, such as a vendor or service provider. A voucher is produced usually after receiving a vendor invoice, after the invoice is successfully matched to a purchase order.[>wikipedia](http://en.wikipedia.org/wiki/Voucher)*
+- write-off
+an investment (such as a purchase of sellable goods) for which a return on the investment is now impossible or unlikely. The item's potential return is thus canceled and removed from ("written off") the business's balance sheet
 
 #references#
 - [Double-entry bookkeeping system](http://en.wikipedia.org/wiki/Double-entry_bookkeeping_system)
