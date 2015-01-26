@@ -1,0 +1,1 @@
+[gitignore](https://www.kernel.org/pub/software/scm/git/docs/gitignore.html)
