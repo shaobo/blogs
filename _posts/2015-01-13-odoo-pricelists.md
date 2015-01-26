@@ -56,3 +56,8 @@ product\_pricelist\_item.py
 
 'pricelist_id': fields.dummy(string='Pricelist', relation='product.pricelist', type='many2one'),
 ```
+
+[Price Revisions](https://doc.odoo.com/book/6/6_17_Purchases/6_17_Purchases_workflow/#price-revisions)
+odoo supports several methods of calculating and automatically updating product costs:
+* Standard Price: manually fixed, and revalued automatically and periodically,
+* Average Price: updated at each receipt to the warehouse

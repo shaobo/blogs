@@ -1,16 +1,16 @@
 
 Reconciliation on Bank Statements
-Reconciliation is s generally applied to payments of suppliers and customers against corresponding invoices.
+Reconciliation is  generally applied to payments of suppliers and customers against corresponding invoices.
 
 Without the reconciliation process, OpenERP would be incapable of marking invoices that have been paid. Suppose that you have got the following situation for the Smith and Offspring customer:
 
-Invoice 145: 50,
+Invoice 145: $500,
 
-Invoice 167: 120,
+Invoice 167: $1200,
 
-Invoice 184: 70.
+Invoice 184: $700.
 
-If you receive a payment of 120, OpenERP will delay reconciliation because there is a choice of invoices to pay. It could either reconcile the payment against invoices 145 and 184 or against invoice 167.
+If you receive a payment of 1200, OpenERP will delay reconciliation because there is a choice of invoices to pay. It could either reconcile the payment against invoices 145 and 184 or against invoice 167.
 
 Invoices are marked as Paid when accounting entries on the invoice have been reconciled with accounting entries about their payment.
 
