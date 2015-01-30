@@ -1,0 +1,17 @@
+digraph unix {	
+	node [color=lightblue2, style=filled];
+
+	BUY -> "Product level Route";
+	"MTO" -> "Product level Route";
+	"WH:Receipt in 1 step" -> "Warehouse level Route";
+	"WH:Ship Only" -> "Warehouse level Route";
+	"Warehouse level Route"->"Routes";
+	"Product level Route"->"Routes";
+	"Procurement rules" -> "Procurement order";
+	"Routes" -> "Procurement rules";
+	"Buy" -> "Action field";
+	"Produce" -> "Action field";
+	"Move from another location" -> "Action field";
+	"Action field" -> "Procurement rules";
+	"Procurement Stock Location field" -> "Procurement rules";
+}

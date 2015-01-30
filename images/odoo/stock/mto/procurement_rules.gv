@@ -1,0 +1,9 @@
+digraph agr{
+	size="6,6";
+	node [color=lightblue2, style=filled];
+
+	"Procurement Order\nwith" -> "WH: Stock -> Customers MTO\nProcurement Rule assigned would create";
+	"WH: Stock -> Customers MTO\nProcurement Rule assigned would create" -> "Child Procurement order\nwhich matched to";
+	"Child Procurement order\nwhich matched to" -> "WH: Stock -> Customers BUY\nProcurement Rule & then create";
+	"WH: Stock -> Customers BUY\nProcurement Rule & then create" -> "Purchase Order";
+}

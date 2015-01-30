@@ -8,6 +8,12 @@ permalink: "odoo-warehousing-procurement-test"
 product's default procurement action is taking products from existing stock,so unenough stock wouldn't trigger purchase order creation
 .This procurement opition assums that you have initialized enough inventory stock,also you don't want odoo to buy goods from your supplier automatically. here is the test case to verify it:
 
+__basic configuration__   
+1)setting/configuration/warehouse:
+![module cfg]({{ site.baseurl }}/images/odoo/stock/shiponlyrule/base_module_cfg.png)
+2)warehouse/configuration:
+![wh cfg]({{ site.baseurl }}/images/odoo/stock/shiponlyrule/base_wh_cfg.png)
+
 __1,set procurements of product__  
 Supply Chain Information~Routes: leave both `Buy | Make To Order` options unchecked    
 qyt 0 on hand
@@ -32,7 +38,7 @@ __5,odoo just only generate ship delivery order__
 
 
 __conclusion__  
-The default procurement setting `Take from stock` is clearly verifed as it would not generate purchase order at the timing of lack of stock.
+The default procurement setting `Take from stock` is clearly verifed as it would not generate purchase order even lack of stock.
 ![shiponly_procurement_rule]({{ site.baseurl }}/images/odoo/stock/shiponlyrule/shiponly_procurement_rule.png)
 
-in IDEA case ,since the stock is 0 for the test product,we may need odoo have other procurement options like buy products from supplier. let's move for the next test
+in IDEA case ,since the stock is 0 for the test product,we may need odoo have other procurement options like buy products from supplier, let's move for the next [`Make To Order` procurement test]({{ site.baseurl }}/odoo-warehousing-procurement-mto/).

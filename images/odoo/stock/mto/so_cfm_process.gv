@@ -1,0 +1,17 @@
+digraph agr{
+	so_confirm[label="action_ship_create()\n sale_order.py:698"];
+
+	prep_proc[label="_prepare_order_line_procurement()\n sale_stock.py:75"];
+
+	loc_prep_proc[label="location_id=\norder.partner_shipping_id.property_stock_customer.id"];
+	
+	procure_order_jit[label="create()\nprocurement_jit.py:30"]
+
+	assign_rule[label="_find_suitable_rule()\nprocurement/procurement_order.py:143"]
+
+	so_confirm -> prep_proc;
+	prep_proc -> loc_prep_proc;
+	loc_prep_proc -> procure_order_jit;
+	procure_order_jit -> assign_rule;
+	assign_rule -> "procurement order in running status";
+}

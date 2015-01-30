@@ -16,15 +16,29 @@ select lot_stock_id 'Location Stock',view_location_id 'View Location',wh_pack_st
 
 select id,location_id,complete_name from stock_location;
 ```
-| id |   parent    |  name                                                 | active 
-| ---| ----------- | ----------------------------------------------------- | ------ 
-| 11 |           1 | Physical Locations / WH                               | true 
-| 12 |          11 | `Physical Locations / WH / Stock`                     | true 
-| 13 |          11 | Physical Locations / WH / Input                       | false
-| 14 |          11 | Physical Locations / WH / Quality Control             | false
-| 15 |          11 | Physical Locations / WH / Output                      | false
-| 16 |          11 | Physical Locations / WH / Packing Zone                | false
-| 17 |           7 | Physical Locations / Your Company: Transit Location   | false
+id |	complete_name	             |parent\_location\_id
+---|---------------------------------|--------------------
+9|Partner Locations / Customers|2
+8|Partner Locations / Suppliers|2
+20|Partner Locations / Suppliers / IT Suppliers|8
+21|Partner Locations / Suppliers / IT Suppliers / Big Suppliers|20
+22|Partner Locations / Suppliers / IT Suppliers / Generic IT Suppliers|20
+23|Partner Locations / Customers / European Customers|9
+24|Partner Locations / Customers / Non European Customers|9
+12|Physical Locations / WH / Stock|11
+17|Physical Locations / YourCompany: Transit Location|1
+18|Physical Locations / WH / Stock / Shelf 2|12
+19|Physical Locations / WH / Stock / Shelf 1|12
+32|Physical Locations / WH / Stock / Shelf 2 / Small Refrigerator|18
+33|Physical Locations / WH / Input / Order Processing|13
+34|Physical Locations / WH / Input / Order Processing / Dispatch Zone|33
+35|Physical Locations / WH / Input / Order Processing / Dispatch Zone / Gate A|34
+36|Physical Locations / WH / Input / Order Processing / Dispatch Zone / Gate B|34
+10|Virtual Locations / Inter Company Transit|3
+4|Virtual Locations / Scrapped|3
+5|Virtual Locations / Inventory loss|3
+6|Virtual Locations / Procurements|3
+7|Virtual Locations / Production|3
 
 
 Production is manufacturing, Purchase is the acquisition of goods from another party, and Procurement is either one or both of those.*sure if there is plenty of stocks,Procurement wouldn't be triggered at all*
