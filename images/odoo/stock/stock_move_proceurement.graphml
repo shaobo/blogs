@@ -710,10 +710,10 @@
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="69.9130859375" x="24.0" y="452.5078124999999">invoice_state</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="113.5849609375" x="126.0" y="452.5078124999999">CHARACTER VARYING</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="250.7148437499999"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="61.44140625" x="24.0" y="470.1484374999999">sale_line_id</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="97.0810546875" x="24.0" y="470.1484374999999">purchase_line_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="126.0" y="470.1484374999999">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="250.7148437499999"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="87.2958984375" x="24.0" y="487.7890624999999">purchase_line_id</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="61.44140625" x="24.0" y="487.7890624999999">sale_line_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="126.0" y="487.7890624999999">INTEGER</y:NodeLabel>
         </y:GenericNode>
       </data>
@@ -787,10 +787,10 @@
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="55.2353515625" x="24.0" y="276.1015625">partner_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="153.0" y="276.1015625">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="70.34765625" x="24.0" y="293.7421875">company_id</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="64.21484375" x="24.0" y="293.7421875">company_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="153.0" y="293.7421875">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="40.083984375" x="24.0" y="311.3828125">priority</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="41.8466796875" x="24.0" y="311.3828125">rule_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="113.5849609375" x="153.0" y="311.3828125">CHARACTER VARYING</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="29.33203125" x="24.0" y="329.0234375">state</y:NodeLabel>
@@ -799,13 +799,13 @@
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="127.9990234375" x="24.0" y="346.6640625">origin_returned_move_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="153.0" y="346.6640625">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="99.3857421875" x="24.0" y="364.3046875">product_packaging</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="111.041015625" x="24.0" y="364.3046875">product_packaging</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="153.0" y="364.3046875">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="71.646484375" x="24.0" y="381.9453125">restrict_lot_id</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="81.177734375" x="24.0" y="381.9453125">restrict_lot_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="153.0" y="381.9453125">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="86.2900390625" x="24.0" y="399.5859375">date_expected</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="78.0380859375" x="24.0" y="399.5859375">date_expected</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="185.9482421875" x="153.0" y="399.5859375">TIMESTAMP(6) WITHOUT TIME ZONE</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="92.408203125" x="24.0" y="417.2265625">procurement_id</y:NodeLabel>
@@ -817,7 +817,7 @@
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="72.8525390625" x="24.0" y="452.5078125">warehouse_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="153.0" y="452.5078125">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="65.71875" x="24.0" y="470.1484375">inventory_id</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="73.6533203125" x="24.0" y="470.1484375">inventory_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="153.0" y="470.1484375">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="95.025390625" x="24.0" y="487.7890625">partially_available</y:NodeLabel>
@@ -835,10 +835,10 @@
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="49.60546875" x="24.0" y="558.3515625">write_uid</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="153.0" y="558.3515625">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="35.0693359375" x="24.0" y="575.9921875">name</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="32.359375" x="24.0" y="575.9921875">name</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="113.5849609375" x="153.0" y="575.9921875">CHARACTER VARYING</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="66.7392578125" x="24.0" y="593.6328125">push_rule_id</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="74.1953125" x="24.0" y="593.6328125">push_rule_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="153.0" y="593.6328125">INTEGER</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="169.0" y="409.48046875"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="53.5263671875" x="24.0" y="611.2734375">split_from</y:NodeLabel>
@@ -1192,56 +1192,56 @@
     <node id="n17">
       <data key="d5">
         <y:GenericNode configuration="DEFAULT">
-          <y:Geometry height="311.3828125" width="290.0" x="-1476.5560165975105" y="1121.4641467842323"/>
+          <y:Geometry height="311.3828125" width="315.0" x="-1309.8215767634854" y="1106.983682053942"/>
           <y:Fill color="#FFFFCC" transparent="false"/>
           <y:BorderStyle color="#808080" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="120.0224609375" x="84.98876953125" y="4.0">stock_inventory</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="120.0224609375" x="97.48876953125" y="4.0">stock_inventory</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="14.5859375" x="24.0" y="29.132812500000227">id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="29.132812500000227">INTEGER</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="56.4267578125" x="24.0" y="46.77343750000023">create_uid</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="46.77343750000023">INTEGER</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="63.51171875" x="24.0" y="64.4140625">create_date</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="185.9482421875" x="101.0" y="64.4140625">TIMESTAMP(6) WITHOUT TIME ZONE</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="56.8076171875" x="24.0" y="82.0546875">product_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="82.0546875">INTEGER</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="29.33203125" x="24.0" y="99.6953125">state</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="113.5849609375" x="101.0" y="99.6953125">CHARACTER VARYING</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="55.2353515625" x="24.0" y="117.3359375">partner_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="117.3359375">INTEGER</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="70.34765625" x="24.0" y="134.9765625">company_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="134.9765625">INTEGER</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="49.60546875" x="24.0" y="152.6171875">write_uid</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="152.6171875">INTEGER</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="31.7001953125" x="24.0" y="170.2578125">filter</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="113.5849609375" x="101.0" y="170.2578125">CHARACTER VARYING</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="60.5185546875" x="24.0" y="187.8984375">package_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="187.8984375">INTEGER</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="56.6904296875" x="24.0" y="205.5390625">write_date</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="185.9482421875" x="101.0" y="205.5390625">TIMESTAMP(6) WITHOUT TIME ZONE</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="29.46875" x="24.0" y="223.1796875">date</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="185.9482421875" x="101.0" y="223.1796875">TIMESTAMP(6) WITHOUT TIME ZONE</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="30.943359375" x="24.0" y="240.8203125">lot_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="240.8203125">INTEGER</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="64.7568359375" x="24.0" y="258.4609375">location_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="258.4609375">INTEGER</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="35.0693359375" x="24.0" y="276.1015625">name</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="113.5849609375" x="101.0" y="276.1015625">CHARACTER VARYING</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="143.0" y="153.69140625"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="155.5" y="153.69140625"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="49.9814453125" x="24.0" y="293.7421875">period_id</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Helvetica" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" modelName="free" modelPosition="anywhere" textColor="#000000" visible="true" width="47.8720703125" x="101.0" y="293.7421875">INTEGER</y:NodeLabel>
         </y:GenericNode>
@@ -1487,6 +1487,22 @@
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="838.17578125" x="-328.4383194564788" y="673.575763833333">Preferred route to be followed by the procurement order. Usually copied from the generating document (SO) but could be set up manually<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="18.693655010666557" distanceToCenter="true" position="left" ratio="572.5048562056099" segment="-2"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="101.482421875" x="1.967171368481445" y="15.676145903035604">*preffered route<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="19.247533851873186" distanceToCenter="true" position="right" ratio="0.21227147085396036" segment="2"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1513,6 +1529,14 @@
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rotationAngle="90.0" textColor="#000000" visible="true" width="297.51953125" x="-52.95242145843738" y="-305.30867394665984">procurement order is on top of procurement rule<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="14.438182830319207" distanceToCenter="true" position="left" ratio="0.18776373995485662" segment="1"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="1.5707963267948966" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1610,6 +1634,14 @@
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="252.865234375" x="-0.07404162952178694" y="-38.984352226679675">stock moves created by the procurement<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="left" ratio="0.0" segment="0"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1617,11 +1649,17 @@
     <edge id="e20" source="n10" target="n14">
       <data key="d9">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-719.3785626556022" y="1556.3332780082987"/>
-          </y:Path>
+          <y:Path sx="-157.51000582196815" sy="223.9479028925191" tx="69.43409673029078" ty="-167.37788862966818"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rotationAngle="340.0" textColor="#000000" visible="true" width="401.552734375" x="-634.9995360378423" y="53.84568767254086">purchase from procurement(procurement.rule_id.action == 'buy')<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.7704276105914367" segment="-1"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1629,13 +1667,23 @@
     <edge id="e21" source="n10" target="n13">
       <data key="d9">
         <y:PolyLineEdge>
-          <y:Path sx="-157.47127384435805" sy="224.50003567461204" tx="0.0" ty="0.0">
-            <y:Point x="-219.26503568464773" y="1470.0304730290459"/>
-            <y:Point x="-247.82768055236488" y="1489.3377593360997"/>
-            <y:Point x="-255.46619751037395" y="1518.411286307054"/>
+          <y:Path sx="-157.53052117247017" sy="244.9069192373954" tx="-24.3318947249511" ty="-243.91000604345004">
+            <y:Point x="-111.14423236514563" y="1407.2817925311206"/>
+            <y:Point x="-254.54951701244795" y="1481.6148448132778"/>
+            <y:Point x="-254.54951701244795" y="1481.6148448132778"/>
+            <y:Point x="-255.46619751037395" y="1481.6148448132778"/>
+            <y:Point x="-255.46619751037395" y="1481.6148448132778"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rotationAngle="332.0" textColor="#000000" visible="true" width="243.0390625" x="-267.3566765784468" y="52.485282512718754">this procurement order is generated for<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="30.000000000000053" distanceToCenter="true" position="left" ratio="0.3410372662943091" segment="1"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="1.5707963267948966" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1643,8 +1691,8 @@
     <edge id="e22" source="n12" target="n14">
       <data key="d9">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-710.5300979253118" y="1399.5890456431537"/>
+          <y:Path sx="-171.0201825726141" sy="404.4340990663902" tx="-22.437639351494227" ty="-164.52771133383862">
+            <y:Point x="-672.8808896265566" y="1443.9958041493778"/>
             <y:Point x="-710.5300979253118" y="1527.2597510373444"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
@@ -1670,7 +1718,7 @@
     <edge id="e24" source="n12" target="n15">
       <data key="d9">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="162.19646735508684" ty="-259.87537279564253">
+          <y:Path sx="-171.00901446717228" sy="311.8554289839169" tx="162.19646735508684" ty="-259.87537279564253">
             <y:Point x="-998.0603485477181" y="1695.0890954356848"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
@@ -1682,13 +1730,20 @@
     <edge id="e25" source="n12" target="n1">
       <data key="d9">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-67.7864896265562" y="772.7156514522824"/>
-            <y:Point x="-2.608066390041813" y="383.620215767635"/>
-            <y:Point x="-2.608066390041813" y="383.620215767635"/>
+          <y:Path sx="171.01275425255358" sy="-89.0133744832167" tx="-155.8700514522825" ty="-206.9112844657675">
+            <y:Point x="-141.62052780083036" y="901.3147505167831"/>
+            <y:Point x="-141.62052780083036" y="346.9363717842325"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rotationAngle="90.0" textColor="#000000" visible="true" width="255.765625" x="127.15416091987274" y="-263.1075306574421">The pull rule that created this stock move<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="left" ratio="0.2439213280333946" segment="1"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -1696,8 +1751,55 @@
     <edge id="e26" source="n12" target="n6">
       <data key="d9">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-4.583170124481512" y="1578.5579751037346"/>
+          <y:Path sx="171.01327892157553" sy="197.28415018408077" tx="-154.67890788381737" ty="-142.19215244617476">
+            <y:Point x="-4.583170124481512" y="1553.4585029045645"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rotationAngle="50.0" textColor="#000000" visible="true" width="262.955078125" x="5.749110285912934" y="-32.97885224474723">The push rule that created this stock move<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="27.89079917188125" distanceToCenter="true" position="left" ratio="0.0033398975638431463" segment="0"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e27" source="n13" target="n5">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="162.4589197791094" sy="194.5002010798196" tx="-172.50656760153436" ty="-97.65777994390646">
+            <y:Point x="-130.77725731585042" y="1957.9080414409323"/>
+            <y:Point x="321.4959244268882" y="1957.9080414409323"/>
+            <y:Point x="338.63114102439863" y="1957.9080414409323"/>
+            <y:Point x="345.38869123186737" y="1942.5519070539422"/>
+            <y:Point x="356.00769870074737" y="1901.0412414937762"/>
+            <y:Point x="412.96419330655635" y="1653.6741311203318"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="556.755859375" x="8.4552335119281" y="21.01304869913838">by Enable Route on Sales Order Line Technical Setting ,routes can be specified at order line<y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="29.997463312893842" distanceToCenter="true" position="right" ratio="0.6187921417868986" segment="1"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e28" source="n12" target="n17">
+      <data key="d8"/>
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-171.02138699584486" sy="69.64198996710684" tx="40.90288796680511" ty="-99.89208415456392">
+            <y:Point x="-731.3064896265557" y="1078.313626556017"/>
+            <y:Point x="-990.7481493775931" y="1137.4421908713696"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1705,16 +1807,42 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n13" target="n5">
+    <edge id="e29" source="n12" target="n18">
       <data key="d8"/>
       <data key="d9">
         <y:PolyLineEdge>
-          <y:Path sx="162.4589197791094" sy="194.5002010798196" tx="-172.50656760153436" ty="-97.65777994390646">
-            <y:Point x="-130.77725731585042" y="1957.9080414409323"/>
-            <y:Point x="170.8990912318675" y="1988.8893941908716"/>
-            <y:Point x="170.8990912318675" y="1988.8893941908716"/>
-            <y:Point x="338.63114102439863" y="1978.0290456431537"/>
-            <y:Point x="338.63114102439863" y="1978.0290456431537"/>
+          <y:Path sx="-170.98565234751345" sy="-44.65744052724847" tx="152.16112531120302" ty="-111.11866589730289">
+            <y:Point x="-896.8664697095436" y="701.5389145228216"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e30" source="n12" target="n19">
+      <data key="d8"/>
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-170.97703742346914" sy="-20.03479396491491" tx="157.50833858921135" ty="-67.14001786825725">
+            <y:Point x="-939.3424995850623" y="917.6563917012451"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e31" source="n15" target="n3">
+      <data key="d8"/>
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-163.02227123412422" sy="7.382386540457446" tx="168.98902564225932" ty="-121.51852431876364">
+            <y:Point x="-1387.8296431535275" y="1962.3468547717848"/>
+            <y:Point x="-1387.8296431535275" y="2285.7439004149387"/>
+            <y:Point x="839.1030008298762" y="2266.969420495968"/>
+            <y:Point x="839.1030008298762" y="690.8115609109044"/>
+            <y:Point x="839.1030008298762" y="688.1181944312364"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>

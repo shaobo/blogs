@@ -1,0 +1,18 @@
+$ssh-keygen -t dsa
+
+>add public key to launchpad 
+https://launchpad.net/people/+me/+editsshkeys
+
+#it seems that tsa public kye is not working
+http://wiki.openlp.org/Configuring_SSH_Keys_on_Linux_and_Mac_OS_X
+
+>debug ssh connection
+$ssh -vvv shaobo-li@bazaar.launchpad.net
+
+>Get this branch:
+$bzr branch lp:~faisal-basar/openerp-usa/BistaShipping
+
+>cd BistaShipping ,and check out
+$bzr co
+
+http://stackoverflow.com/questions/10189038/how-to-download-source-code-with-bazaar

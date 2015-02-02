@@ -20,20 +20,10 @@ id |	complete_name	             |parent\_location\_id
 ---|---------------------------------|--------------------
 9|Partner Locations / Customers|2
 8|Partner Locations / Suppliers|2
-20|Partner Locations / Suppliers / IT Suppliers|8
-21|Partner Locations / Suppliers / IT Suppliers / Big Suppliers|20
-22|Partner Locations / Suppliers / IT Suppliers / Generic IT Suppliers|20
-23|Partner Locations / Customers / European Customers|9
-24|Partner Locations / Customers / Non European Customers|9
 12|Physical Locations / WH / Stock|11
 17|Physical Locations / YourCompany: Transit Location|1
-18|Physical Locations / WH / Stock / Shelf 2|12
 19|Physical Locations / WH / Stock / Shelf 1|12
-32|Physical Locations / WH / Stock / Shelf 2 / Small Refrigerator|18
 33|Physical Locations / WH / Input / Order Processing|13
-34|Physical Locations / WH / Input / Order Processing / Dispatch Zone|33
-35|Physical Locations / WH / Input / Order Processing / Dispatch Zone / Gate A|34
-36|Physical Locations / WH / Input / Order Processing / Dispatch Zone / Gate B|34
 10|Virtual Locations / Inter Company Transit|3
 4|Virtual Locations / Scrapped|3
 5|Virtual Locations / Inventory loss|3
@@ -110,8 +100,6 @@ __Routes__
 A Route is a collection of procurement rules and push rules. Routes can be applied on: 
 * Product * Warehouse * Product Category * Sale Order Line
 
-1) pull rules:
-
 id  |name                                 
 ----|--------------------------------- 
 1   |Make To Order                        
@@ -132,10 +120,8 @@ procurement order is based on procurement.rule and stock.warehouse.orderpoint(Re
 ```sql
 select id,name,procure_method,route_id,location_id,location_src_id,warehouse_id,picking_type_id from procurement_rule where active='true'  order by 1
 ```
-procurement.rules
-'''
-    A rule describe what a procurement should do; produce, buy, move, ...
-'''
+__procurement.rules__
+A rule describe what a procurement should do; produce, buy, move, ...
 
 id |name                              |procure\_method |route\_id |location\_id |location\_src\_id |warehouse\_id 
 ---|----------------------------------|-------------- |-------- |----------- |--------------- |--- 
@@ -144,17 +130,12 @@ id |name                              |procure\_method |route\_id |location\_id 
 9  |YourCompany:Buy                   |make\_to\_stock|8        |12          |                |1            
 
 
-** 4 types of stock_pickings,each stock_picking has many stock_moves
-
-
-
-duplicate fields like stock_location/warehouse in stock_move and procurement
-
-Reordering Rules stock.warehouse.orderpoint Defines Minimum stock rules
+__Reordering Rules__ 
+stock.warehouse.orderpoint Defines Minimum stock rules
 
 To automatically make stock replenishment proposals, you can use Reordering rules: if the virtual stock for the given location is lower than the minimum stock indicated in the rule, the system will automatically propose a procurement to increase the level of virtual stock to the maximum level given in the rule
-![orderpoint]({{ site.baseurl }}/images/odoo/stock/orderpoint.png)
 
+__procurement_group__
 group various procurements in one order
 '''
     The procurement group class is used to group products together
